@@ -1,0 +1,30 @@
+
+.innerdiv{
+    position: absolute;
+    right: 0;
+    width: 130px;
+    height: 4vh;
+    display: flex;
+    color: rgb(246,112,68);
+    font-weight: 600;
+    padding-top: 9px;
+}
+
+@media(min-width:500px){
+    .Navigation{
+        flex-flow: row;
+
+    }
+}
+.user{
+    width: 25px;
+    border: 1px solid rgb(246,112,68);
+    border-radius: 15px;
+    height: 25px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.Bell{
+    padding: 5px 18px;
+}

@@ -1,0 +1,18 @@
+.inputElement {
+    border: none;
+    border-bottom: 1px solid rgb(246,112,68);
+
+}
+.form-control{
+    border-radius:0px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow:none !important
+}
+
+.inputElement:focus{
+    border-bottom: 1px solid rgb(246,112,68); 
+}
+
+.ValidationError{
+    text-align: left;
+}
